@@ -1,0 +1,9 @@
+@Data
+public class Student implements Serializable {
+	private Integer id; 	\\学生Id
+
+	private String name; 	\\学生姓名
+
+	private Integer age; 	\\学生年龄
+
+}
