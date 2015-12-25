@@ -1,0 +1,14 @@
+@Data
+public class neverest_job_load_database_mapper implements Serializable {
+
+	private Long id; 	\\id
+
+	private Long job_id; 	\\jobId
+
+	private Long database_id; 	\\databaseId
+
+	private DATETIME created_at; 	\\创建日期
+
+	private DATETIME updated_at; 	\\修改日期
+
+}

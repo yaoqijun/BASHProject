@@ -1,5 +1,0 @@
-id int 学生Id 11
-name varchar 学生姓名 20
-age int 学生年龄 11
-name_age int test 11
-age_name int test 11

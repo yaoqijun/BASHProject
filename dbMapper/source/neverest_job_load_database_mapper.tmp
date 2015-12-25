@@ -1,0 +1,5 @@
+id bigint id 20
+job_id bigint jobId 20
+database_id bigint databaseId 20
+created_at DATETIME 创建日期 0
+updated_at DATETIME 修改日期 0

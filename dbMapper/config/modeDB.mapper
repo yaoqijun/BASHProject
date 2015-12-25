@@ -3,3 +3,4 @@ varchar String
 datetime Date
 bigint Long
 smallint Integer
+DATETIME DATETIME

@@ -1,0 +1,22 @@
+result : 
+<result property=id" column="id" />
+<result property=jobId" column="job_id" />
+<result property=databaseId" column="database_id" />
+<result property=createdAt" column="created_at" />
+<result property=updatedAt" column="updated_at" />
+
+
+columns : 
+id,job_id,database_id,created_at,updated_at
+
+
+values : 
+${id}, ${jobId}, ${databaseId}, ${createdAt}, ${updatedAt}
+
+
+update : 
+<if test="id!=null">id=#{id},</if>
+<if test="jobId!=null">job_id=#{jobId},</if>
+<if test="databaseId!=null">database_id=#{databaseId},</if>
+<if test="createdAt!=null">created_at=#{createdAt},</if>
+<if test="updatedAt!=null">updated_at=#{updatedAt},</if>
